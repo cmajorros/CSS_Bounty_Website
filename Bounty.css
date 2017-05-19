@@ -1,0 +1,108 @@
+@charset "utf-8";
+.Wrapper {
+	width: 3000px;
+	margin:auto;
+}
+.Road1 {
+	width: 1160px;
+	height: 1101px;
+	background: url(images/road-1.png);
+	background-repeat: no-repeat;
+	position: relative;
+	color: #FFF;
+}
+
+.Road2 {
+	width: 1239px;
+	height: 5560px;
+	background-repeat: no-repeat;
+	background-image: url(images/road-2.png);
+}
+
+.Road3 {
+	width: 1239px;
+	height: 693px;
+	background-repeat: no-repeat;
+	background-image: url(images/road-3.png);
+	background-position: 723px;
+}
+.Wrapper #Wrapper #Road1 #apMenu ul {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	list-style-type: none;
+	display: inline;
+	clip: rect(20px,auto,auto,auto);
+	margin: 0px;
+	padding: 0px;
+}
+.Wrapper #Wrapper #Road1 #apMenu ul li {
+	display: inline;
+	color: #FFF;
+	margin-right: 10px;
+	margin-left: 20px;
+}
+
+
+.Road4 {
+width: 1206px;
+height: 3400px;
+background:url(images/road-4.png);
+background-repeat:no-repeat;	
+}
+.Road5 {
+	width: 1206px;
+	height: 2968px;
+	background-repeat: no-repeat;
+	background-image: url(images/road-5.png);
+	background-position: 687px;
+}
+.Road6 {
+	width: 3000px;
+	height: 2500px;
+	background-repeat: no-repeat;
+	background-image: url(images/road-6.png);
+	background-position: -165px;
+	position: relative;
+}
+.Menu{
+	position: fixed;
+	height: 49px;
+	background: url(images/header-branding-bg.png);
+	background-repeat: repeat-x;
+	padding-top: 145px;
+	left: -24px;
+	top: -1px;
+	width: 3097px;
+	padding-left: 250px;
+	z-index: 1000;
+}
+.Logo{
+	width: 181px;
+	height: 173px;
+	margin-top: 50px;
+	margin-left: 70px;
+	position: absolute;
+	left: -21px;
+	top: 14px;
+}
+.Box1{
+	position: absolute;
+	width: 605px;
+	height: 340px;
+}
+.Product{
+	position: absolute;
+	height: 162px;
+	}
+.anchor
+{
+	position: absolute;
+	width : 20px;
+	height: 20px;
+	left: 101px;
+	top: 124px;
+	
+}
+.PadDec
+{
+	margin-right: 10px;	
+}
